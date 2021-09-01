@@ -7,8 +7,8 @@ export const Container = styled.div`
   flex-direction: column;
 `;
 export const Block = styled.div`
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   background-color: ${(props) =>
     props.indexX === 19 || props.indexY === 19 ? "transparent" : "#ccc"};
   border: 1px solid
